@@ -59,7 +59,7 @@ __/etc/default/isc-dhcp-server__</br>
 
 ```
  sudo systemctl status isc-dhcp-server.service
- ```
+```
 ![](/Linux_networking/Screens/Server-DHCP-service.png)
 
 1.5 Сonfigure the operation of network ports for Client-3 and Client-2. One port works on the principle of getting a dynamic address, and the second port sets statics, according to the task:</br>
@@ -128,3 +128,38 @@ __Client-2__</br>
 3.5 Сhecking ping and traceroute from Client-2 to 172.17.0.0/18 network:
 
 ![](/Linux_networking/Screens/Cheking-new-ping.png)
+
+**4. SETTING UP AN SSH CONNECTION.**
+
+4.1 Create a new ssh-key by command `ssh-keygen` on each VM and copying public keys using the next command:
+```
+ssh-copy-id username@remote_host
+```
+
+4.2 Checking connection via `ssh` from Client-3 to Server-1 and Client-2:</br>
+
+![](/Linux_networking/Screens/Client-1-Server-1%20(ssh).png)
+
+![](/Linux_networking/Screens/Client-1-Client-2%20(ssh).png)
+
+4.3 Checking connection via `ssh` from Client-2 to Client-3:</br>
+
+![](/Linux_networking/Screens/Client-2-Client-1(ssh).png)
+
+**5. Setting Firewall on Server-1**
+
+5.1 Configuration `iptables` on Server-1:
+
+![](/Linux_networking/Screens/IP-tables-Server.png)
+
+5.2 Checking ssh connection via Client-3:
+
+![](Linux_networking/Screens/Client-2-Client-1(ssh).png)
+
+![](/Linux_networking/Screens/Client2-Server(den).png)
+
+5.3 Checking ping connections:
+
+![](/Linux_networking/Screens/Checking-Ping-Clien2.png)
+
+*End task*
