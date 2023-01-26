@@ -82,6 +82,7 @@ __Client-2__</br>
 ![](/Linux_networking/Screens/client2-ping-traceroute.png)
 
 **2. CONFIGURING NETWORK TRAFFIC ON A CLIENT VIRTUAL PORT.** </br>
+
 2.1 Add two virtual IP addresses **172.17.D+10.1/24** and **172.17.D+20.1/24** to the lo interface on Client-3. After that, we configure the routing of Client-2 along the following route:
 
 | Host |  Via |IP addresses recipient| MAC addresses | Gateway |
