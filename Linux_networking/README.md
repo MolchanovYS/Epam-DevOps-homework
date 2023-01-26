@@ -148,7 +148,7 @@ ssh-copy-id username@remote_host
 
 ![](/Linux_networking/Screens/Client-2-Client-1(ssh).png)
 
-**5. Setting Firewall on Server-1**
+**5. Setting Firewall**
 
 5.1 Configuration `iptables` on Server-1:
 
