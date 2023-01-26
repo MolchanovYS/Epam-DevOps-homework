@@ -146,7 +146,7 @@ ssh-copy-id username@remote_host
 
 4.3 Checking connection via `ssh` from Client-2 to Client-3:</br>
 
-![](/Linux_networking/Screens/Client-2-Client-1(ssh).png)
+
 
 **5. Setting Firewall**
 
@@ -156,7 +156,7 @@ ssh-copy-id username@remote_host
 
 5.2 Checking ssh connection via Client-3:
 
-![](Linux_networking/Screens/Client-2-Client-1(ssh).png)
+![](/Linux_networking/Screens/Client-2-Client-1(ssh).png)
 
 ![](/Linux_networking/Screens/Client2-Server(den).png)
 
