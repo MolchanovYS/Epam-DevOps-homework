@@ -18,7 +18,7 @@
 | enp0s8 | 10.91.15.200/24 | 08:00:27:1b:35:1a |
 | enp0s9 | 10.15.91.200/24 | 08:00:27:8b:31:0c |
 
-- Client_1 - Ubuntu-22.04
+- Client_3 - Ubuntu-22.04
 
 | Interfaces | IP addresses | MAC addresses |
 | ------------- | ------------- | ----------|
@@ -62,10 +62,9 @@ __/etc/default/isc-dhcp-server__</br>
  ```
 ![](/Linux_networking/Screens/Server-DHCP-service.png)
 
-1.5 Сonfigure the operation of network ports for Client-1 and Client-2. One port works on the principle of getting a dynamic address, and the second port sets statics, according to the task:</br>
+1.5 Сonfigure the operation of network ports for Client-3 and Client-2. One port works on the principle of getting a dynamic address, and the second port sets statics, according to the task:</br>
 
-__Client_1__</br>
-> In the screenshot, Client_1 is recorded as Client_3. It`s ok.
+__Client_3__</br>
 ![](/Linux_networking/Screens/client3-ip-addresses.png)</br>
 
 __Client_2__</br>
@@ -76,14 +75,14 @@ __Client_2__</br>
 __Server-1__</br>
 ![](/Linux_networking/Screens/Server-ping-traceroute.png)
 
-__Client-1__</br>
+__Client-3__</br>
 ![](/Linux_networking/Screens/client3-ping-traceroute.png)
 
 __Client-2__</br>
 ![](/Linux_networking/Screens/client2-ping-traceroute.png)
 
-2. Configuring network traffic on a client virtual port.
-2.1 Add two virtual IP addresses **172.17.D+10.1/24** and **172.17.D+20.1/24** to the lo interface on Client-1. After that, we configure the routing of Client-2 along the following route:
+**2. Configuring network traffic on a client virtual port.** </br>
+2.1 Add two virtual IP addresses **172.17.D+10.1/24** and **172.17.D+20.1/24** to the lo interface on Client-3. After that, we configure the routing of Client-2 along the following route:
 
 | Host |  Via |IP addresses recipient| MAC addresses | Gateway |
 | ---------| ------------- | ----------| ----------| ----------| 
@@ -102,12 +101,30 @@ __Client-2__</br>
 
 ![](/Linux_networking/Screens/Add-route-Server.png) 
 
-2.5 Checking the connection between Client-2 and Client-1`s virtual port:</br>
+2.5 Checking the connection between Client-2 and Client-3`s virtual port:</br>
 
 ![](/Linux_networking/Screens/Ping-route-Client-2.png)
 
-2.6 Adding a route between Client-1 and Client-2 via the Net4 network and checking connections:</br>
+2.6 Adding a route between Client-3 and Client-2 via the Net4 network and checking connections:</br>
 
 ![](/Linux_networking/Screens/Add-route-via-Net4.png)
 
-3. Configure the use of a summary virtual network
+**3. Configure the use of a summary virtual network.**
+3.1 Using networks 172.17.25.0/24 and 172.17.35.0/24 configure routing for summarized network via Server-1:
+![](/Linux_networking/Screens/Summarized%20network.png)
+
+3.2 Replacing old IP addresses in lo interface Client-3:
+
+![](/Linux_networking/Screens/Set%20IP%20address%20Client3.png)
+
+3.3 Adding a new route from Client-2 to Server-1:
+
+![](/Linux_networking/Screens/Add-new-route-Client2.png)
+
+3.4 Adding a new route from Server-1 to Client-3:</br>
+
+![](/Linux_networking/Screens/Add-new-route-Server.png)
+
+3.5 Сhecking ping and traceroute from Client-2 to 172.17.0.0/18 network:
+
+![](/Linux_networking/Screens/Cheking-new-ping.png)
