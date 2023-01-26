@@ -82,4 +82,32 @@ __Client-1__</br>
 __Client-2__</br>
 ![](/Linux_networking/Screens/client2-ping-traceroute.png)
 
-2.Setting static IP`s on the Server.
+2. Configuring network traffic on a client virtual port.
+2.1 Add two virtual IP addresses **172.17.D+10.1/24** and **172.17.D+20.1/24** to the lo interface on Client-1. After that, we configure the routing of Client-2 along the following route:
+
+| Host |  Via |IP addresses recipient| MAC addresses | Gateway |
+| ---------| ------------- | ----------| ----------| ----------| 
+| Client-2 |  Server-1|172.17.25.0 | 255.255.255.0 | 10.91.15.11 |
+| Client-2 | Net4 | 172.17.35.0 | 255.255.255.0 |  172.16.15.15 |
+
+2.2 Adding two addresses to lo interface on Client-1.</br>
+
+![](/Linux_networking/Screens/Add-2-virtual-ip-client-1.png)
+
+2.3 Adding route from Client-2 to Server-1:</br>
+
+![](/Linux_networking/Screens/Add-route-Client2.png)
+
+2.4 Adding route from Server-1 to Client-1:</br>
+
+![](/Linux_networking/Screens/Add-route-Server.png) 
+
+2.5 Checking the connection between Client-2 and Client-1`s virtual port:</br>
+
+![](/Linux_networking/Screens/Ping-route-Client-2.png)
+
+2.6 Adding a route between Client-1 and Client-2 via the Net4 network and checking connections:</br>
+
+![](/Linux_networking/Screens/Add-route-via-Net4.png)
+
+3. Configure the use of a summary virtual network
