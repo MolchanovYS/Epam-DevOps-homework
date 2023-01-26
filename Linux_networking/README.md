@@ -111,6 +111,7 @@ __Client-2__</br>
 ![](/Linux_networking/Screens/Add-route-via-Net4.png)
 
 **3. CONFIGURE THE USE OF A SUMMARY VIRTUAL NETWORK.**
+
 3.1 Using networks 172.17.25.0/24 and 172.17.35.0/24 configure routing for summarized network via Server-1:
 ![](/Linux_networking/Screens/Summarized%20network.png)
 
