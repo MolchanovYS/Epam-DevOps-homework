@@ -156,7 +156,7 @@ ssh-copy-id username@remote_host
 
 5.2 Checking ssh connection:
 
-
+![](/Linux_networking/Screens/Client-1-Server-1-new-(ssh).png)
 
 ![](/Linux_networking/Screens/Client2-Server(den).png)
 
