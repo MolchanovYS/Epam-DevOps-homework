@@ -56,3 +56,26 @@ sudo apt install mysql-server
 **5. Construct and execute `SELECT` operator with `WHERE`, `GROUP BY` and `ORDER BY`:**
 
 ![](/Database%20_Administration/Screens/Work%20with%20tables.png)
+
+**5. Execute other defferents SQL queries DDL, DML, DCL.**
+
+- 5.1 DDL
+
+![](/Database%20_Administration/Screens/DDl-1st.png)
+![](/Database%20_Administration/Screens/DDl-2nd.png)
+
+- 5.2 DML
+
+![](/Database%20_Administration/Screens/DMl-1st.png)
+![](/Database%20_Administration/Screens/DMl-2nd.png)
+
+- 5.3 DCL
+
+![](/Database%20_Administration/Screens/DCL-1.png)
+![](/Database%20_Administration/Screens/DCL-2.png)
+![](/Database%20_Administration/Screens/DCL-3.png)
+![](/Database%20_Administration/Screens/DCL-4.png)
+
+**6. Make a selection from the main table DB MySQL.**
+
+![](/Database%20_Administration/Screens/DM%20MySQL.png)
