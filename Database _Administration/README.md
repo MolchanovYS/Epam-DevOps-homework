@@ -106,3 +106,13 @@ sudo apt install mysql-server
 10.3 Extrcat backup file on the VM: 
 
 ![](/Database%20_Administration/Screens/Extract%20backup.png) 
+
+**11. Create a database and collection in MongoDB.**
+
+![](/Database%20_Administration/Screens/Create%20a%20database%20and%20collection%20in%20Mongo.png)
+
+**12. Using the command find() in MongoDB.**
+
+![](/Database%20_Administration/Screens/Comand-find.png)
+
+*End task*
