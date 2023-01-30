@@ -30,3 +30,21 @@
 
 ![](/AWS-cloud-basic/Screens/Attach-Disk-D.png)
 ![](/AWS-cloud-basic/Screens/Attached-Disk.png)
+
+5.3  Attaching disk D to running EC2 instance.
+
+![](/AWS-cloud-basic/Screens/Mount-disk-d-1.png)
+![](/AWS-cloud-basic/Screens/Mount-disk-d-2.png)
+
+5.4  Create some data in a new store.
+
+![](/AWS-cloud-basic/Screens/Create%20data.png)
+
+5.5 Checking for file on disk D on another Instance:
+
+![](/AWS-cloud-basic/Screens/Change-Disk-D.png)
+
+**6. Lightsail.**
+
+![](/AWS-cloud-basic/Screens/Lighttsail-1.png)
+![](/AWS-cloud-basic/Screens/Lighttsail-2.png)
