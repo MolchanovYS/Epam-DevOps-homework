@@ -1,3 +1,3 @@
 # Epam-DevOps-homework
 Epam DevOps Autumn 2022
-- ![] Epam-DevOps-homework/Database _Administration/
+[Database _Administration] (https://github.com/MolchanovYS/Epam-DevOps-homework/tree/main/Database%20_Administration)  
