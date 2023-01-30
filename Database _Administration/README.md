@@ -4,7 +4,7 @@
 
 ## This task describes how to work with MySQL on a virtual machine.
 
-## Steps of Task
+### Steps of Task
 **1. Download and install MySQL server on VM.**
 ```
 sudo apt install mysql-server
