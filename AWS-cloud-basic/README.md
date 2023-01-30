@@ -48,3 +48,27 @@
 
 ![](/AWS-cloud-basic/Screens/Lighttsail-1.png)
 ![](/AWS-cloud-basic/Screens/Lighttsail-2.png)
+
+**7. S3.**
+
+7.1 Create S3 bucket.
+
+![](/AWS-cloud-basic/Screens/Create-bucket.png)
+
+7.2 Upload files to the S3 bucket.
+
+![](/AWS-cloud-basic/Screens/upload-files.png)
+
+7.3 Retrieve files to the S3 bucket.
+
+![](/AWS-cloud-basic/Screens/Retrieve-files.png)
+
+**8. AWS CLI.**
+
+![](/AWS-cloud-basic/Screens/ARN.png)
+![](/AWS-cloud-basic/Screens/Work-with-bucket.png)
+
+**9. Lambda.**
+
+![](/AWS-cloud-basic/Screens/Create-function-lambda.png)
+![](/AWS-cloud-basic/Screens/Start-function-lambda.png)
