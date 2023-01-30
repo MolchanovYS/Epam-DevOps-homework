@@ -79,3 +79,30 @@ sudo apt install mysql-server
 **6. Make a selection from the main table DB MySQL.**
 
 ![](/Database%20_Administration/Screens/DM%20MySQL.png)
+
+**7. Make backup of your database.**
+
+![](/Database%20_Administration/Screens/BackUp%20databases.png)
+
+**8. Delete the table and/or part of the data ine the table.**
+
+![](/Database%20_Administration/Screens/Change%20table.png)
+
+**9. Restore your database.**
+
+![](/Database%20_Administration/Screens/Restore%20table.png)
+
+**10. Transfer your local database to RDS AWS.**
+> Since I do not have the ability to connect to RDS AWS, it will use the second virtual machine available.
+
+10.1 Comress backup file: 
+
+![](/Database%20_Administration/Screens/Compress%20backup.png)
+
+10.2 Send backup file to another VM: 
+
+![](/Database%20_Administration/Screens/send%20backup.png)
+
+10.3 Extrcat backup file on the VM: 
+
+![](/Database%20_Administration/Screens/Extract%20backup.png) 
