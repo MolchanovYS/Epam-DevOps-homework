@@ -14,3 +14,12 @@
 
 ![](/Linux_bash/Screens/Script.png)
 ![](/Linux_bash/Screens/Output.png)
+
+## Task 2
+## Requirements
+- From which ip were the most requests?
+- What is the most requested page?
+- How many requests were there from each ip?
+- What non-existent pages were clients referred to?
+- What time did site get the most requests?
+- What search bots have accessed the site? (UA + IP)
