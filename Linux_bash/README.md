@@ -13,3 +13,4 @@
 - The --target key displays a list of open system TCP ports.
 
 ![](/Linux_bash/Screens/Script.png)
+![](/Linux_bash/Screens/Output.png)
