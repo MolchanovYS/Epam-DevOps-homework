@@ -4,9 +4,9 @@
 
 ## This task describes how to create and work with scripts.
 
-## Task 1##
+## Task 1
 
-## Requirements##
+## Requirements
 
 - When starting without parameters, it will display a list of possible keys and their description.
 - The --all key displays the IP addresses and symbolic names of all hosts in the current subnet
