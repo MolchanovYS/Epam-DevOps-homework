@@ -20,3 +20,7 @@
 ### Create a data backup script that takes the following data as parameters:
 - Path to the syncing directory.
 - The path to the directory where the copies of the files will be stored.
+
+![](/Linux_bash/Screens/Sync_code.png)
+![](/Linux_bash/Screens/Sync-1.png)
+![](/Linux_bash/Screens/Sync-2.png)
